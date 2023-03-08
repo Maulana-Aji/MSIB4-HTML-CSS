@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Form</title>
+</head>
+<body>
+    <h3 align="center">Form Register Produk</h3>
+    <form action="">
+        <table align="center" cellpadding="5">
+            <thead bgcolor="aquamarine">
+                <tr>
+                    <th colspan="2">Form Register Member</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Nama Produk</td>
+                    <td><input type="text" name="namaProduk" placeholder="Nama Produk" id=""></td>
+                </tr>
+                <tr>
+                    <td>Jenis Produk</td>
+                    <td>
+                        <select name="jenisProduk" id="">
+                            <option value="" disabled selected><-- Katengori Produk --></option>
+                            <option value="makanan">Makanan</option>
+                            <option value="minuman">Minuman</option>
+                            <option value="peralatan">Peralatan</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Harga</td>
+                    <td><input type="text" name="hargaProduk" placeholder="Harga Produk" id=""></td>
+                </tr>
+                <tr>
+                    <td>Stok</td>
+                    <td><input type="text" name="stokProduk" placeholder="Stok Produk" id=""></td>
+                </tr>
+                <tr>
+                    <td>Photo</td>
+                    <td><input type="text" name="photoProduk" placeholder="Photo Produk" id=""></td>
+                </tr>
+            </tbody>
+
+            <tfoot bgcolor="aquamarine">
+                <tr>
+                    <th colspan="2">
+                        <input type="submit" value="Kirim">
+                        <input type="reset" value="Batal">
+                    </th>
+                </tr>
+            </tfoot>
+
+        </table>
+    </form>
+    <hr>
+
+    <h3 align="center">Form Register Member</h3>
+    <form action="">
+        <table align="center" cellpadding="5">
+            <thead bgcolor="aquamarine">
+                <tr>
+                    <th colspan="2">Form Register Member</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Username</td>
+                    <td><input type="text" name="username" placeholder="Username" minlength="4" required id=""></td>
+                </tr>
+                <tr>
+                    <td>Passowrd</td>
+                    <td><input type="password" name="password" placeholder="Passowrd" minlength="8" required id=""></td>
+                </tr>
+            </tbody>
+
+            <tfoot bgcolor="aquamarine">
+                <tr>
+                    <th colspan="2">
+                        <input type="submit" value="Kirim">
+                        <input type="reset" value="Batal">
+                    </th>
+                </tr>
+            </tfoot>
+
+        </table>
+    </form>
+</body>
+</html>
+
